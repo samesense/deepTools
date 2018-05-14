@@ -109,7 +109,7 @@ def countFragmentsInRegions_worker(chrom, start, end,
                 if score is None or score == [None] or np.isnan(score[0]):
                     score = [np.nan]
                 scores.extend(score)
-            avgReadsArray.append(np.average(scores, weights=weights))  # mean of fragment coverage for region
+            avgReadsArray.append(np.sum(scores))  # mean of fragment coverage for region
 
         sub_score_per_bin.extend(avgReadsArray)
         rows += 1
