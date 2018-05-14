@@ -1,4 +1,7 @@
-# deepTools
+# deepTools - singal sum
+
+I've modified the code so multiBigwigSummary prints the signal sum rather than the average.
+
 [![Build Status](https://travis-ci.org/deeptools/deepTools.svg?branch=master)](https://travis-ci.org/deeptools/deepTools) [![Documentation Status](https://readthedocs.org/projects/deeptools/badge/)](http://deeptools.readthedocs.org/) [![PyPI Version](https://img.shields.io/pypi/v/deeptools.svg?style=plastic)](https://pypi.org/project/deepTools/) [![bioconda-badge](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io)
 
 ## User-friendly tools for exploring deep-sequencing data
